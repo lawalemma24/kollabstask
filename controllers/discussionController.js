@@ -9,7 +9,7 @@ exports.createDiscussion = async (req, res) => {
     
     if (!message || !author) {
       return res.status(400).json({ 
-        error: 'Message and author are required' 
+        error: 'Messages and author are required' 
       });
     }
     
