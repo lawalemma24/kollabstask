@@ -15,7 +15,7 @@ exports.createKollab = async (req, res) => {
     
     if (!Array.isArray(participants) || participants.length === 0) {
       return res.status(400).json({ 
-        error: 'Participants must be a non-empty array' 
+        error: 'Participant must be a non-empty array' 
       });
     }
     
